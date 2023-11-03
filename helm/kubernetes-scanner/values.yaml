@@ -296,5 +296,5 @@ prometheus:
     labels: {}
 
 secret:
-  - key:
-    name:
+  key:
+  name:
