@@ -57,7 +57,7 @@ spec:
               valueFrom:
                 secretKeyRef:
                   name: {{ required "A secret name is required!" .Values.secret.name }}
-                  key: "snykServiceAccountToken"
+                  key: {{ .Values.secret.name }}
           {{- with .Values.extraEnv }}
             {{- toYaml . | nindent 12 }}
           {{- end }}
