@@ -295,4 +295,6 @@ prometheus:
     enabled: false
     labels: {}
 
-secret: {}
+secret:
+  - key:
+    name:
