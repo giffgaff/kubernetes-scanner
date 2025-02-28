@@ -298,3 +298,7 @@ prometheus:
   podMonitor:
     enabled: false
     labels: {}
+
+secret:
+  key:
+  name:
